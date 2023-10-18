@@ -11,3 +11,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.table{
+  border:2px solid black;
+  width:90%;
+  padding:20px;
+  margin:50px auto 0px auto;
+  
+}
+
+
+
+.table .edit-btn{
+  display: inline-block;
+  padding:5px 10px;
+  background-color: rgb(88, 222, 88);
+  color:white;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+  
+}
+
+
+.table th, td {
+  text-align: center;
+}
+
+.table th{
+  font-size:25px;
+  font-family: sans-serif;
+}
+
+
+
+.table td {
+  box-shadow: 0 0 2px 0px black;
+  padding: 5px;
+}
+
+.table .delete-btn{
+  display: inline-block;
+  padding:5px 10px;
+  background-color: rgb(216, 48, 48);
+  color:white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.user-form{
+  width:50%;
+  margin: 50px auto 0px auto;
+  border:2px solid green;
+  
+  
+}
+
+.user-form input{
+  display: block;
+  margin: auto;
+  width:50%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  
+}
+
+.user-form button {
+  display: block;
+  margin:25px auto;
+  width:40%;
+  background-color: limegreen;
+  color:white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+}
